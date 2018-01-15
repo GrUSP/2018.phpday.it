@@ -46,6 +46,9 @@ platinum:
     - 5 tickets with 15% discount
   max: 4
   list:
+    -
+      url: https://www.siteground.it/?utm_source=phpday
+      image: siteground.svg
 
 gold:
   price: € 1,000
