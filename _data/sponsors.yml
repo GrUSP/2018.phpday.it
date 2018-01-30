@@ -77,7 +77,7 @@ silver:
   max: 32
   list:
     -
-      url: https://balsamiq.com/?utm_source=cssday2018
+      url: https://balsamiq.com/?utm_source=phpday
       image: balsamiq.svg
 
 bronze:
