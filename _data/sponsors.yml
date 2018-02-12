@@ -47,6 +47,9 @@ platinum:
   max: 4
   list:
     -
+      url: https://blackfire.io/?utm_source=phpday
+      image: blackfire.svg
+    -
       url: https://www.siteground.it/?utm_source=phpday
       image: siteground.svg
 
