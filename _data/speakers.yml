@@ -23,6 +23,20 @@ list:
     last_name: Van De Vreken
     twitter: hannesvdvreken
   -
+    id: luka-muzinic
+    description:
+    image: luka-muzinic.jpg
+    first_name: Luka
+    last_name: Muzinic
+    twitter: lmuzinic
+  -
+    id: michael-heap
+    description:
+    image: michael-heap.jpg
+    first_name: Michael
+    last_name: Heap
+    twitter: mheap
+  -
     id: nara-kasbergen
     description:
     image: nara-kasbergen.jpg
