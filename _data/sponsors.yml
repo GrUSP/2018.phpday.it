@@ -50,6 +50,9 @@ platinum:
       url: https://blackfire.io/?utm_source=phpday
       image: blackfire.svg
     -
+      url: http://www.ideato.it/?utm_source=phpday
+      image: ideato.svg
+    -
       url: https://www.siteground.it/?utm_source=phpday
       image: siteground.svg
 
@@ -63,9 +66,6 @@ gold:
     - 3 tickets with 15% discount
   max: 8
   list:
-    -
-      url: http://www.ideato.it/?utm_source=phpday
-      image: ideato.svg
     -
       url: http://careers.workwave.com/
       image: workwave.svg
