@@ -2,6 +2,13 @@
 # img/conf-name/speaker/file.jpg
 list:
   -
+    id: enrico-zimuel
+    description:
+    image: enrico-zimuel.png
+    first_name: Enrico
+    last_name: Zimuel
+    twitter: ezimuel
+  -
     id: fabien-potencier
     description:
     image: fabien-potencier.png
@@ -22,6 +29,13 @@ list:
     first_name: Nara
     last_name: Kasbergen
     twitter: xiehan
+  -
+    id: nils-adermann
+    description:
+    image: nils-adermann.png
+    first_name: Nils
+    last_name: Adermann
+    twitter: naderman
   -
     id: stefan-koopmanschap
     description:
