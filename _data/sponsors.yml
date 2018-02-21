@@ -67,6 +67,9 @@ gold:
   max: 8
   list:
     -
+      url: http://www.bakeca.it/?utm_source=phpday
+      image: bakeca.svg
+    -
       url: http://careers.workwave.com/
       image: workwave.svg
 
