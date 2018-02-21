@@ -1,3 +1,39 @@
 # place images in:
 # img/conf-name/speaker/file.jpg
 list:
+  -
+    id: fabien-potencier
+    description:
+    image: fabien-potencier.png
+    first_name: Fabien
+    last_name: Potencier
+    twitter: fabpot
+  -
+    id: hannes-van-de-vreken
+    description:
+    image: hannes-van-de-vreken.jpeg
+    first_name: Hannes
+    last_name: Van De Vreken
+    twitter: hannesvdvreken
+  -
+    id: nara-kasbergen
+    description:
+    image: nara-kasbergen.jpg
+    first_name: Nara
+    last_name: Kasbergen
+    twitter: xiehan
+  -
+    id: stefan-koopmanschap
+    description:
+    image: stefan-koopmanschap.png
+    first_name: Stefan
+    last_name: Koopmanschap
+    twitter: skoop
+  -
+    id: tobias-nyholm
+    description:
+    image: tobias-nyholm.jpg
+    first_name: Tobias
+    last_name: Nyholm
+    twitter: tobiasnyholm
+
