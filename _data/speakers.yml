@@ -2,6 +2,13 @@
 # img/conf-name/speaker/file.jpg
 list:
   -
+    id: andreas-hucks
+    description:
+    image: andreas-hucks.jpg
+    first_name: Andreas
+    last_name: Hucks
+    twitter: meandmymonkey
+  -
     id: enrico-zimuel
     description:
     image: enrico-zimuel.png
