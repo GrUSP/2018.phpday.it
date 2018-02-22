@@ -23,6 +23,13 @@ list:
     last_name: Van De Vreken
     twitter: hannesvdvreken
   -
+    id: kat-zien
+    description:
+    image: kat-zien.jpg
+    first_name: Kat
+    last_name: Zien
+    twitter: kasiazien
+  -
     id: luka-muzinic
     description:
     image: luka-muzinic.jpg
