@@ -51,6 +51,13 @@ list:
     last_name: Heap
     twitter: mheap
   -
+    id: michele-orselli
+    description:
+    image: michele-orselli.jpg
+    first_name: Michele
+    last_name: Orselli
+    twitter: _orso_
+  -
     id: nara-kasbergen
     description:
     image: nara-kasbergen.jpg
