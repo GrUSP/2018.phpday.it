@@ -16,6 +16,13 @@ list:
     last_name: Hucks
     twitter: meandmymonkey
   -
+    id: antonio-peric
+    description:
+    image: antonio-peric.jpg
+    first_name: Antonio
+    last_name: Peric
+    twitter: antonioperic
+  -
     id: david-stokes
     description:
     image: david-stokes.jpg
