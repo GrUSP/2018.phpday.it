@@ -23,6 +23,13 @@ list:
     last_name: Peric
     twitter: antonioperic
   -
+    id: bastian-hofmann
+    description:
+    image: bastian-hofmann.jpg
+    first_name: Bastian
+    last_name: Hofmann
+    twitter: BastianHofmann
+  -
     id: david-stokes
     description:
     image: david-stokes.jpg
@@ -92,6 +99,13 @@ list:
     first_name: Nils
     last_name: Adermann
     twitter: naderman
+  -
+    id: ondrej-mirtes
+    description:
+    image: ondrej-mirtes.jpg
+    first_name: Ondrej
+    last_name: Mirtes
+    twitter: OndrejMirtes
   -
     id: stefan-koopmanschap
     description:
