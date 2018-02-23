@@ -85,6 +85,9 @@ silver:
     -
       url: https://balsamiq.com/?utm_source=phpday
       image: balsamiq.svg
+    -
+      url: https://www.mysql.com/?utm_source=phpday
+      image: mysql.svg
 
 bronze:
   price: € 300
