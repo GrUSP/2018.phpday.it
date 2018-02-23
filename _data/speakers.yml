@@ -16,6 +16,13 @@ list:
     last_name: Hucks
     twitter: meandmymonkey
   -
+    id: david-stokes
+    description:
+    image: david-stokes.jpg
+    first_name: David
+    last_name: Stokes
+    twitter: Stoker
+  -
     id: enrico-zimuel
     description:
     image: enrico-zimuel.png
