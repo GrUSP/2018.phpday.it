@@ -49,6 +49,11 @@
           Keynote
         </div>
       {% endif %}
+      {% if include.talk.tutorial %}
+      <div class="talk__tutorial">
+        Tutorial
+      </div>
+      {% endif %}
     </div>
     <h3 class="talk__title">
       {{ include.talk.title }}

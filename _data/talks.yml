@@ -1,0 +1,229 @@
+-
+  speaker_id:
+    - alessandro-lai
+  title: Adding Event Sourcing to an existing PHP project (for the right reasons)
+  extract: >
+    "Event Sourcing", along with "CQRS" (Command Query Responsibility Segregation), have recently become trending terms,
+    and now there is so much theory, blog posts and talks about them. However, most of these deal with the problem
+    starting from an utopian assumption: having to write a project from scratch (greenfield), but at the same time
+    with a high domain complexity right from the start, enough to justify the use of a complex technique like event
+    sourcing and CQRS, which carry a fair amount of inherent complexity. But the reality greatly differs: projects are
+    born from small and simple prototypes, and they accumulate complexity only with time and the growth and evolution
+    of specifications and features. This talk is a case history in which I will tell you (with little theory and a lot
+    of practical examples) how we decided to **add event sourcing to an already existing project** (without eradicating
+    the rest or rewriting it), to **solve a specific problem** (reporting and its historization) for which this
+    methodology proved to be the **perfect solution**.
+
+-
+  speaker_id:
+    - andreas-hucks
+  title: Getting the most out of Symfony4
+  extract: >
+    Symfony4 has brought some significant changes in the way you work with the framework. From easier service
+    configuration to the way you compose leaner applications, there is a lot to discover. This talk explains the
+    advantages of Autowiring, configuration through env vars, Bundle-less application structure, and of course Symfony
+    Flex in depth for users who have some basic Symfony background, and want to get started quickly using the new
+    features.
+
+-
+  speaker_id:
+    - antonio-peric
+  title: Real REST is easy with Api Platform
+  tutorial: true
+  extract: >
+    We'll start by creating a fully-featured API in just a few minutes with API Platform, Symfony and Doctrine. The API
+    will support pagination, data validation, access control, relation embedding, filters and error handling. It will
+    expose many formats (JSON-LD, Hydra, JSONAPI, HAL, JSON, XML, YAML and CSV), will be documented with Swagger/OpenAPI
+    and will have a nice UI done in React. Last but not least, the API will respond in a just few milliseconds thanks
+    to its builtin invalidation based cache mechanism. Then, we will use the ReactJS tools provided by the API Platform
+    to consume the exposed Hydra documentation. In a few more minutes, we will get a Material Design administration
+    interface (a la Sonata / EasyAdmin - but 100% client-side) built with React. Finally, we'll discover 2 nice code
+    generators to bootstrap a SPA (React, Redux and React Router) and iOS and Android mobile apps (React Native).
+
+-
+  speaker_id:
+    - bastian-hofmann
+  title: Getting started with Kubernetes
+  extract: >
+    Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots
+    of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning
+    curve. In this talk I will introduce you to Kubernetes, why you would want to use it and all the tooling around
+    Kubernetes with the help of practical examples.
+
+-
+  speaker_id:
+    - bastian-widmer
+  title: Enter a new world of web development where everything is serverless
+  extract: >
+    The good old times where a text editor and an FTP client were enough to fulfill your web development needs are over!
+    With the rise of containers and microservices and new concepts like serverless everything got much more complex.
+    Fear not we’ll dive into the concepts and you’ll see which parts you can already adopt today! Everyone is talking
+    about containers and serverless but barely anyone is using it in production. Let’s dive in together into the new
+    world of web development.
+
+-
+  speaker_id:
+    - david-stokes
+  title: MySQL8 a new beginning
+  extract: >
+    MySQL 5.7 was the best adopted version of MySQL ever but now MySQL 8 is on the way. It will have a true data
+    dictionary (instant ALTER TABLES and no more .FRM files) so you will be able to have millions of tables in a
+    database. There ate CTEs and windowing functions, roles, 3D Geometry, improved JSON support. and full UTF8MB$
+    support. Plus many more features including CATS scheduling and enhanced security. Plus learn what happened to MySQL
+    versions 6 and 7!
+
+-
+  speaker_id:
+    - enrico-zimuel
+  title: The Sodium crypto library of PHP 7.2
+  extract: >
+    The Sodium crypto library ([libsodium](https://libsodium.org/)) is a modern, easy-to-use software library for
+    encryption, decryption, signatures, password hashing and more. Sodium has been added to PHP 7.2 as core extension.
+    In this talk we will show how to use Sodium in PHP projects to solve common problems, like how to store the users'
+    password, how to encrypt/decrypt sensitive information, how to authenticate user's data, etc. We'll also present
+    some of the advanced features of libsodium like authenticated encryption, anonymous public-key encryption, and
+    elliptic curve cryptography.
+
+-
+  speaker_id:
+    - fabien-potencier
+  title: "Let's create a blockchain with PHP!"
+  keynote: true
+  extract: >
+    Blockchain, Cryptocurrency. Bitcoin, Ethereum. Buzzwords? Trendy topics? Sure. As a developer, I'm not very
+    interested in the hype or the crazy speculation. But I want to understand the underlying technology. How Bitcoin
+    works. What makes Ethereum useful. The concepts and algorithms used by Bitcoin, Ethereum, and the thousands other
+    coins that were created in the last years. I read the Bitcoin whitepaper. I found it very interesting. To share my
+    new knowledge, I'd like to create a cryptocurrency in PHP... with you. This session should be more than enough.
+    Along the way, you will hopefully better understand what makes Bitcoin revolutionary.
+-
+  speaker_id:
+    - hannes-van-de-vreken
+  title: A Tale about Time
+  extract: >
+    Timezones, DST, human readable diffs, standardised formats, intervals, getting the last Tuesday of next month...
+    Dealing with timestamps seems easy, but there’s a lot to it. It’s very easy to do it wrong. Learn how to do this
+    properly and you’ll never be tracing weird time related bugs anymore!
+
+-
+  speaker_id:
+    - kat-zien
+  title: "Performance optimisation: how do I go about it?"
+  extract: >
+    Every developer should be confident that their code is efficient and safe to run in production. But it can be hard
+    to get started. What tools to use? What do the graphs mean? What to look at first? In this talk, we will analyse
+    and optimise the performance of a simple PHP application. By demonstrating how to use some of the excellent open
+    source projects such as xdebug, xhprof or meminfo I hope to give you a good idea of where to start with analysing
+    and optimising your PHP code.
+
+-
+  speaker_id:
+    - luka-muzinic
+  title: Pragmatic TDD
+  tutorial: true
+  extract: >
+    Developers still hesitate to include writing tests in their everyday routine. There are numerous excuses, myths and
+    misconceptions around: “they slow us down”, “we’ll never achieve 100% code coverage, so why bother”, “takes too much
+    time to learn testing, we’re better of writing business logic instead”. When we get to the topic of writing tests
+    first, the debate becomes even more heated. In real world, where you get paid by code that ships, developer strive
+    to write the most efficient tests possible. To cover mission critical code. To quickly decide whether writing a
+    functional test or series of unit tests is the best approach. Let us learn together how to use phpunit and TDD in
+    most efficient way possible, for extraordinary results. This workshop is for developers who start their projects by
+    drawing model of the database first, developers who are overwhelmed by number of testing tools or don’t know where
+    to start and developers who simply want to level up their game.
+
+-
+  speaker_id:
+    - michael-heap
+  title: "Dr Sheldon Cooper Presents: Fun with Flags"
+  extract: >
+    No no, not country flags, feature flags! Feature flags are a powerful technique that allows teams to modify a
+    system's behaviour without changing code. They can be used several reasons - canary releases and A/B testing to
+    name a few. This talk will show you how you're already using feature flags in your application without realising
+    it. Next, we'll take a look at some of the best tooling out there to help you take feature flags to the next level.
+    Finally, we'll cover strategies for removing feature flags before they become technical debt that you have to manage.
+
+-
+  speaker_id:
+    - michele-orselli
+  title: "Refactoring a large legacy PHP Application: a case study"
+  extract: >
+    In recent months I have had the opportunity to work on the refactoring of a large legacy application, for a good
+    part written in procedural code: the challenge was to make the application evolve to keep up with the business
+    needs, without embark on an expensive and unthinkable rewrite During this session I'd like to share what techniques
+    we used to achieve the goal, highlighting what worked well, and what didn't, to give you a couple more ideas the
+    next time you're facing a similar challenge. Some of topics:
+    - code organization from folder structure to classes
+    - choosing an architectural style
+    - testing
+    - refactoring to objects
+
+-
+  speaker_id:
+    - nara-kasbergen
+  title: "Empathy as a Service: Supporting Mental Health in the Tech Workplace"
+  extract: >
+    At any given time, 1 in 5 adults are living with a mental illness, such as depression, bipolar disorder, generalized
+    anxiety disorder, substance use disorder, burnout, or ADHD. Statistically, all of us working for an organization with
+    5 or more employees have at least one colleague who is affected. At the same time, the tech industry is often
+    characterized by high stress, long hours, workplace pressure to be available by phone and e-mail after-hours or
+    sometimes even while on vacation, social pressure to constantly network and attend conferences and make a name
+    for yourself, and the precarious balance between trying to do good by contributing to open-source and maintaining
+    some semblance of free time that doesn't involve coding. Given how this demanding environment increasingly blurs
+    the line between our professional and personal lives, how can we ensure that the most vulnerable among us aren't
+    being left behind? As a community, the single most damaging thing we can do is continue to treat mental health as
+    a personal shortcoming that can't be talked about openly. We shouldn't think of it as "somebody else's problem";
+    the 4 in 5 of us who don't currently have mental health disorders must do our part to help end the stigma.
+
+-
+  speaker_id:
+    - nils-adermann
+  title: Composer Best Practices 2018
+  extract: >
+    Not certain you're making full use of Composer's capabilities? Overwhelmed by the number of commands, options and
+    configuration choices? Composer has become the standard tool for Dependency Management in PHP. While we continuously
+    work on improving Composer's usability and documentation, it covers a vast amount of functionality and use cases,
+    and Dependency management itself remains a challenge for software development. Apart from the latest changes in
+    Composer this session will cover details on version constraints, stabilities, semantic versioning, correct use of
+    the lock file, helpful tips for everyday interaction with Composer, such as the right options to use during
+    development, testing and deployment, or commands useful for debugging solver problems. You should already be
+    familiar with Composer and be eager to learn more tips &amp; tricks.
+
+-
+  speaker_id:
+    - ondrej-mirtes
+  title: Zero Downtime Database Migrations and Deployments
+  extract: >
+    Developers of applications under continuous high load often struggle with delivering new features and improvements
+    without taking the app offline, performing the required migrations and taking it back online. I will show battle-tested
+    procedures how to perform migrations without any disruptions. To survive in a competitive market, a software team
+    must be able to deploy new versions of their application as frequently as possible, delivering new features,
+    improvements and bugfixes for their users and stakeholders. Deployments should not be limited to a certain time or
+    to a certain number, otherwise they become a bottleneck for the development process. To avoid disruptions when
+    frequently deploying new versions, developers must adopt a set of practices that allow changing the database schema
+    in production without users even noticing. As a result, the development process becomes much more safe and smooth.
+    I will also talk about zero downtime deployments. They are less about development practices and more about deployment
+    automation and webserver configuration. Some tips might even make your application perform faster!
+
+-
+  speaker_id:
+    - stefan-koopmanschap
+  title: "Don't Stop Learning"
+  keynote: true
+  extract: >
+    The world of technology evolves constantly. Every day we as developers do not learn something new, we fall behind.
+    We should never stop learning. There are so many reasons for learning and ways of learning, Let's find out which.
+
+-
+  speaker_id:
+    - tobias-nyholm
+  title: Building your translation process
+  extract: >
+    The Symfony Translator component is the one you learned how to use in 5 minutes and you have not thought much about
+    it since. It just sits there in almost every project and just works. That is great, that is what a great component
+    should do. The tricky part is how you build your development processes to work together with the translation process.
+    You will start to notice problems when you have 4 or more languages. What other tools and services should you use?
+    And how do you teach external translators to edit xliff files? Of course your should not force XML on non-developers.
+    Taking the experiences learned from JMSTranslationBundle, Happyr’s translation bundles and the PHP-Translation
+    organization; I will give you example of a few very concrete processes working with translations in a Symfony
+    environment.

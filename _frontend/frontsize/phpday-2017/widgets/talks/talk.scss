@@ -120,6 +120,12 @@
     margin-top: s(1);
   }
 
+  @include element ('tutorial') {
+    clear: both;
+    float: left;
+    margin-top: s(1);
+  }
+
   @include element ('twitter') {
     @include float-row;
   }
