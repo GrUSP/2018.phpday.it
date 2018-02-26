@@ -65,6 +65,13 @@ list:
     last_name: Van De Vreken
     twitter: hannesvdvreken
   -
+    id: james-mallison
+    description:
+    image: james-mallison.jpeg
+    first_name: James
+    last_name: Mallison
+    twitter: j7mbo
+  -
     id: kat-zien
     description:
     image: kat-zien.jpg

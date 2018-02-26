@@ -107,6 +107,22 @@
 
 -
   speaker_id:
+    - james-mallison
+  title: Websockets and Torrents - A match made in PHP
+  extract: >
+    Websockets are a technology allowing bi-directional communication between the server and the client and are not
+    often the topic of focus when it comes to writing standard web applications due to their complexity and learning
+    curve required. In this talk will will discuss event loops and event driven programming and end with a distributed
+    messaging architecture that will work in enterprise. This talk is also the story of my first real project involving
+    sending torrent data from the server to the browser so I could build my own Torrent Web GUI. You will see fully
+    working code and a live example. What is an event loop and how does it work? How about authentication when using
+    both HTTP and Websocket requests? How do I make my code non-blocking? How about the overall architecture? These
+    are some of the topics covered from both a theoretical and a practical standpoint. I also talk about security and
+    privacy and how not to get caught when setting up a server designed solely for streaming Ubuntu downloads. Going
+    out of the talk, you will know how to architect a realtime, distributed application with PHP.
+
+-
+  speaker_id:
     - kat-zien
   title: "Performance optimisation: how do I go about it?"
   extract: >
