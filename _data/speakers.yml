@@ -46,7 +46,7 @@ list:
   -
     id: enrico-zimuel
     description:
-    image: enrico-zimuel.png
+    image: enrico-zimuel.jpg
     first_name: Enrico
     last_name: Zimuel
     twitter: ezimuel
@@ -123,7 +123,7 @@ list:
   -
     id: stefan-koopmanschap
     description:
-    image: stefan-koopmanschap.png
+    image: stefan-koopmanschap.jpg
     first_name: Stefan
     last_name: Koopmanschap
     twitter: skoop
