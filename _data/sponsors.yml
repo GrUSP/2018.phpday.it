@@ -70,6 +70,9 @@ gold:
       url: http://www.bakeca.it/?utm_source=phpday
       image: bakeca.svg
     -
+      url: https://labs.madisoft.it/?utm_source=phpday
+      image: madisoft.svg
+    -
       url: http://careers.workwave.com/
       image: workwave.svg
 
