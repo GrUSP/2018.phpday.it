@@ -37,13 +37,6 @@ list:
     last_name: Widmer
     twitter: dasrecht
   -
-    id: david-stokes
-    description:
-    image: david-stokes.jpg
-    first_name: David
-    last_name: Stokes
-    twitter: Stoker
-  -
     id: enrico-zimuel
     description:
     image: enrico-zimuel.jpg

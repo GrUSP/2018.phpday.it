@@ -63,17 +63,6 @@
 
 -
   speaker_id:
-    - david-stokes
-  title: MySQL8 a new beginning
-  extract: >
-    MySQL 5.7 was the best adopted version of MySQL ever but now MySQL 8 is on the way. It will have a true data
-    dictionary (instant ALTER TABLES and no more .FRM files) so you will be able to have millions of tables in a
-    database. There ate CTEs and windowing functions, roles, 3D Geometry, improved JSON support. and full UTF8MB$
-    support. Plus many more features including CATS scheduling and enhanced security. Plus learn what happened to MySQL
-    versions 6 and 7!
-
--
-  speaker_id:
     - enrico-zimuel
   title: The Sodium crypto library of PHP 7.2
   extract: >
