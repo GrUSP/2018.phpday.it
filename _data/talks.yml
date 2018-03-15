@@ -221,6 +221,22 @@
 
 -
   speaker_id:
+    - theo-fidry
+  title: "Mutation testing: better code by making bugs"
+  extract: >
+    Do you test your code? What about your tests? Your tests are code, you need to write, refactor and maintain them.
+    This is not cheap so how do you make sure you are testing enough but not too much? Discover Mutation Testing, a fun
+    tool to make your code better by introducing bugs. The first part of the talk is about the costs of the tests to
+    introduce what problem mutation testing is solving. The tests themselves are code, requires to be written and
+    maintain and as such are far from being free. Depending of the maturity level of your application and your
+    deadlines, you need to adjust the level of testing. Mutation testing is a technique that can provide a reliable
+    metric to know how much of your code is actually tested (as opposed to unit test coverage which shows what code
+    has *not* been tested) and as such provides a tool for both the team to control their level of tests and the
+    business to have a trustworthy metric. The second part is about mutation testing itself: the theory, a demo of
+    the PHP library Infection, pros/cons of that solution and the further development planned for this tool.
+
+-
+  speaker_id:
     - tobias-nyholm
   title: Building your translation process
   extract: >

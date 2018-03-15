@@ -121,6 +121,13 @@ list:
     last_name: Koopmanschap
     twitter: skoop
   -
+    id: theo-fidry
+    description:
+    image: theo-fidry.jpeg
+    first_name: Theo
+    last_name: Fidry
+    twitter: tfidry
+  -
     id: tobias-nyholm
     description:
     image: tobias-nyholm.jpg
