@@ -139,6 +139,16 @@
 
 -
   speaker_id:
+    - mariusz-gil
+  title: GraphQL, different way to think about APIs
+  extract: >
+    REST API modeling may be hard, using and supporting large collection of APIs is even harder. GraphQL is a answer for
+    some of these problems. It’s a query language for APIs which provides complete description of your data and gives
+    clients the power to ask for exactly what the need in a single request. In this talk you will learn about GraphQL
+    concepts, differences between GraphQL and WSDL/SOAP/REST/etc and how to add it to your existing stack.
+
+-
+  speaker_id:
     - michael-heap
   title: "Dr Sheldon Cooper Presents: Fun with Flags"
   extract: >

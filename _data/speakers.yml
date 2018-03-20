@@ -79,6 +79,13 @@ list:
     last_name: Muzinic
     twitter: lmuzinic
   -
+    id: mariusz-gil
+    description:
+    image: mariusz-gil.jpg
+    first_name: Mariusz
+    last_name: Gil
+    twitter: mariuszgil
+  -
     id: michael-heap
     description:
     image: michael-heap.jpg
