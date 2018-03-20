@@ -112,6 +112,17 @@
 
 -
   speaker_id:
+    - jeroen-vd-gulik
+  title: The way we teach tech
+  extract: >
+    Starting your journey as a programmer can be daunting and overwhelming. There is so much to learn, so many
+    contradicting sources of information, and so many different opinions about everything. Most of the time we don't
+    get the answers we need or want, but we get vague options that don't really help us all that much. In this talk I
+    discuss the problems we face when teaching others, the problems we face as an industry in a disparity between
+    juniors and seniors and how we can vastly improve the way in which we teach our peers and educate our juniors.
+
+-
+  speaker_id:
     - kat-zien
   title: "Performance optimisation: how do I go about it?"
   extract: >
