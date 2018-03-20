@@ -99,3 +99,6 @@ bronze:
     - 2 tickets with 10% discount
   max: 64
   list:
+    -
+      url: https://docraptor.com/?utm_source=phpday
+      image: docraptor.svg
