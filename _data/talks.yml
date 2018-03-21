@@ -63,6 +63,21 @@
 
 -
   speaker_id:
+    - dave-liddament
+  title: Effective Code Review
+  extract: >
+    There are so many benefits from code review; lower development costs, increased code quality, quick up-skilling and
+    on-boarding of team members. Despite these benefits many teams don’t have code review as part of their process at
+    all. Others don’t get the gains they should from it. This talk first outlines the business case for code review. It
+    then explores how to make code review effective, specifically looking at: * Expectations of what can be achieved
+    with code review. * What should be covered by code review (including example code) * What should not be covered by
+    code review * How to write code that makes code review easy * What makes good code review comments * What makes
+    good responses to code review comments Finally to wrap up you'll be shown how to enable a code review with Github.
+    Spoiler alert: It can be done it under 5 mins! So if you are on a team that isn’t using code review, or isn’t using
+    it effectively then you should be at this talk.
+
+-
+  speaker_id:
     - enrico-zimuel
   title: The Sodium crypto library of PHP 7.2
   extract: >

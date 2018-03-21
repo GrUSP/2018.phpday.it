@@ -37,6 +37,13 @@ list:
     last_name: Widmer
     twitter: dasrecht
   -
+    id: dave-liddament
+    description:
+    image: dave-liddament.jpg
+    first_name: Dave
+    last_name: Liddament
+    twitter: daveliddament
+  -
     id: enrico-zimuel
     description:
     image: enrico-zimuel.jpg
