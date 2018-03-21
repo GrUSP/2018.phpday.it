@@ -134,6 +134,16 @@
 
 -
   speaker_id:
+    - luis-cobucci
+  title: Demystifying cache in Doctrine ORM
+  extract: >
+    Applications should be fast regardless of any cache system. However, sometimes we do need to cache data in order to
+    optimise things and deliver a fast response to the clients. This talk covers the different types of cache offered
+    Doctrine ORM (metadata, query, result set, and second level cache), how they work together with the Unit of Work and
+    what we should know before caching all the things.
+
+-
+  speaker_id:
     - luka-muzinic
   title: Pragmatic TDD
   tutorial: true

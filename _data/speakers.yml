@@ -79,6 +79,13 @@ list:
     last_name: Zien
     twitter: kasiazien
   -
+    id: luis-cobucci
+    description:
+    image: luis-cobucci.jpg
+    first_name: Luís
+    last_name: Cobucci
+    twitter: lcobucci
+  -
     id: luka-muzinic
     description:
     image: luka-muzinic.jpg
