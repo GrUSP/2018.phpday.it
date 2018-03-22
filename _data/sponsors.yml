@@ -91,7 +91,10 @@ silver:
     -
       url: https://www.cippest.it/?utm_source=phpday
       image: cippest.svg
-
+    -
+      url: https://www.facile.it/?utm_source=phpday
+      image: facile.svg
+      
 bronze:
   price: € 300
   offer:
