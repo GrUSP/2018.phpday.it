@@ -100,6 +100,25 @@
     coins that were created in the last years. I read the Bitcoin whitepaper. I found it very interesting. To share my
     new knowledge, I'd like to create a cryptocurrency in PHP... with you. This session should be more than enough.
     Along the way, you will hopefully better understand what makes Bitcoin revolutionary.
+
+-
+  speaker_id:
+    - gemma-anible
+  title: "Building for Utopia"
+  keynote: true
+  extract: >
+    You don't need unit tests. Just write correct code." "Closing this PEBKAC." "Looks like another ID-10-T error." We
+    builders of systems spend a lot of time blaming failures of the systems we build on users of the systems we build.
+    Maybe that's fine; maybe it's their fault. If the end users of your web app would just read the 'Help' pages, they
+    wouldn't have to call you with questions so often. If the passengers boarding an airplane would just wait for their
+    zone to be called, the line wouldn't back up and the plane would leave on time. If the developers you manage would
+    just write code that works, they wouldn't have to waste all that time on code reviews and unit tests.
+
+    On the other hand, maybe the systems are inherently flawed, but we don't notice until users get involved. Maybe we're
+    not very good at building systems that embrace real people, so instead we build systems that barely tolerate them.
+    How would our system designs change if we started viewing "user errors" as "normative behavior"? How would a system
+    that expected reality from its users be different from one that expects perfection?
+
 -
   speaker_id:
     - hannes-van-de-vreken

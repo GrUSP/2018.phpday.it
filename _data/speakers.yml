@@ -58,6 +58,13 @@ list:
     last_name: Potencier
     twitter: fabpot
   -
+    id: gemma-anible
+    description:
+    image: gemma-anible.jpg
+    first_name: Gemma
+    last_name: Anible
+    twitter: ellotheth
+  -
     id: hannes-van-de-vreken
     description:
     image: hannes-van-de-vreken.jpeg
