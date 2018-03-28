@@ -10,3 +10,14 @@ call_for_paper: false
 ws_available: false
 talks_available: true
 schedule_available: true
+
+iubenda:
+  cookiePolicyId: 55680650
+  siteId: 1063123
+  lang: en
+  enableRemoteConsent: true
+  localConsentDomain: phpday.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-56R9R8P
