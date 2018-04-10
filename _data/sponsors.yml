@@ -67,6 +67,9 @@ gold:
   max: 8
   list:
     -
+      url: https://caffeina.com/
+      image: caffeina.svg
+    -
       url: http://www.bakeca.it/?utm_source=phpday
       image: bakeca.svg
     -
@@ -97,7 +100,7 @@ silver:
     -
       url: https://www.facile.it/?utm_source=phpday
       image: facile.svg
-      
+
 bronze:
   price: € 300
   offer:
