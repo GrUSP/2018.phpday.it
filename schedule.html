@@ -59,7 +59,13 @@ title: Schedule
         </tr>
 
         <tr>
-          {% include schedule/talk.html title='A Tale about Time' time='17.30-18.00' %}
+          <td class="schedule__cell schedule__cell--time">
+            <span class="schedule__time">17.30-18.00</span>
+            <span class="schedule__on-air">on air</span>
+          </td>
+          <td class="schedule__cell schedule__cell--event">
+            <div class="schedule__title">TBA</div>
+          </td>
           <td class="schedule__cell schedule__cell--event">
             <div class="schedule__title">TBA</div>
           </td>
@@ -98,7 +104,15 @@ title: Schedule
         {% include schedule/pause.html time='16.30-17.00' title='Coffee break' icon="coffee" %}
 
         <tr>{% include schedule/talk.html time='17.00-17.30' title='Symfony Messenger: Messages, Queues, Workers and more' %}</tr>
-        <tr>{% include schedule/talk.html time='17.30-18.00' title='A Tale about Time' %}</tr>
+        <tr>
+          <td class="schedule__cell schedule__cell--time">
+            <span class="schedule__time">17.30-18.00</span>
+            <span class="schedule__on-air">on air</span>
+          </td>
+          <td class="schedule__cell schedule__cell--event">
+            <div class="schedule__title">TBA</div>
+          </td>
+        </tr>
 
         {% include schedule/pause.html time='18.00-18.45' title='Happy hour' icon="bar" fill='true' %}
 
@@ -258,9 +272,7 @@ title: Schedule
 
         <tr>
           {% include schedule/talk.html title='Getting the most out of Symfony4' time='16.30-17.00' %}
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">TBA</div>
-          </td>
+          {% include schedule/talk.html title='A Tale about Time' %}
           <td class="schedule__cell schedule__cell--event">
             <div class="schedule__title">Unconference</div>
           </td>
@@ -325,15 +337,7 @@ title: Schedule
 
         <tr>{% include schedule/talk.html time='14.30-15.30' title='Websockets and Torrents - A match made in PHP' %}</tr>
         <tr>{% include schedule/talk.html time='15.30-16.30' title="Building your translation process" %}</tr>
-        <tr>
-          <td class="schedule__cell schedule__cell--time">
-            <span class="schedule__time">16.30-17.00</span>
-            <span class="schedule__on-air">on air</span>
-          </td>
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">TBA</div>
-          </td>
-        </tr>
+        <tr>{% include schedule/talk.html time='16.30-17.00' title="A Tale about Time" %}</tr>
 
         {% include schedule/pause.html time='17.00-17.30' title='Coffee break' icon="coffee" %}
 
