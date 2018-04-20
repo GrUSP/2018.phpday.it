@@ -30,7 +30,7 @@
 
   @include element ('item') {
     & + & {
-      margin-top: s(1);
+      margin-top: s(0.5);
     }
   }
 
