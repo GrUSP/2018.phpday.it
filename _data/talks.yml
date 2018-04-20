@@ -277,6 +277,15 @@
 
 -
   speaker_id:
+    - samuel-roze
+  title: "Symfony Messenger: Messages, Queues, Workers and more"
+  extract: >
+    Symfony 4.1 comes with a new Component: Messenger. It drastically simplifies the use of message buses and handling
+    asynchronous operations using message queues such as RabbitMq. In this talk, I will introduce you to this component
+    and show you how to get started with it.
+
+-
+  speaker_id:
     - stefan-koopmanschap
   title: "Don't Stop Learning"
   keynote: true

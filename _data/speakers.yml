@@ -149,6 +149,13 @@ list:
     last_name: Mirtes
     twitter: OndrejMirtes
   -
+    id: samuel-roze
+    description:
+    image: samuel-roze.jpg
+    first_name: Samuel
+    last_name: Roze
+    twitter: samuelroze
+  -
     id: stefan-koopmanschap
     description:
     image: stefan-koopmanschap.jpg
