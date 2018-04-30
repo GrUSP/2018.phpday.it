@@ -196,6 +196,6 @@
   @include -add-sponsor('gold', 2, $sponsor-rows, s(2), s($sponsor-scale, 400px));
   @include -add-sponsor('silver', 3, $sponsor-rows, s(2), s($sponsor-scale, 330px));
   @include -add-sponsor('bronze', 4, $sponsor-rows, s(2), s($sponsor-scale, 200px));
+  @include -add-sponsor('pugs', 1, $sponsor-rows, s(1), s($sponsor-scale, 110px));
   @include -add-sponsor('partner', 8, $sponsor-rows, s(1), s($sponsor-scale, 110px));
-
 }
