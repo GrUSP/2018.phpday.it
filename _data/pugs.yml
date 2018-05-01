@@ -1,5 +1,9 @@
 list:
     -
+      name: pugBO
+      url: http://bologna.grusp.org/
+      image: BO.svg
+    -
       name: PUG Friuli
       url: http://friuli.grusp.org/
       image: FRIULI.svg
