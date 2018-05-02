@@ -19,3 +19,7 @@ list:
       name: PUG Roma
       url: http://roma.grusp.org/
       image: RM.svg
+    -
+      name: PUG Torino
+      url: http://torino.grusp.org/
+      image: TO.svg
