@@ -90,6 +90,16 @@
 
 -
   speaker_id:
+    - enrico-zimuel
+  title: Speed up web APIs with Expressive and Swoole
+  extract: >
+    In this talk we will present a middleware async architecture based on [Expressive](http://getexpressive.org/) and
+    [Swoole](https://www.swoole.co.uk/) to speed up web API development and runtime in PHP. Using this approach, you will
+    be able to achieve great performace improvement, up to 4x faster than nginx or Apache
+    ([benchmark](https://framework.zend.com/blog/2018-03-21-expressive-swoole.html)).
+
+-
+  speaker_id:
     - fabien-potencier
   title: "Let's create a blockchain with PHP!"
   keynote: true
@@ -315,3 +325,14 @@
     Taking the experiences learned from JMSTranslationBundle, Happyr’s translation bundles and the PHP-Translation
     organization; I will give you example of a few very concrete processes working with translations in a Symfony
     environment.
+
+-
+  speaker_id:
+    - tobias-nyholm
+  title: Dynamic programming - 101
+  extract: >
+    Whenever you are faced with a problem it is normal to try to find a generic solution and then you implement that
+    solution in code. But some problems might be too complex to solve by humans (and even engineers).
+    Imagine you are a traveling salesman, about to visit 10 cities in Europe. You can visit them in any order. What’s
+    the cheapest route? To find this out, we could use dynamic programming to let the computer solve the problem for us
+    and just give us a result.

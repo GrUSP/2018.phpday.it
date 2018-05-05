@@ -59,16 +59,8 @@ title: Schedule
         </tr>
 
         <tr>
-          <td class="schedule__cell schedule__cell--time">
-            <span class="schedule__time">17.30-18.00</span>
-            <span class="schedule__on-air">on air</span>
-          </td>
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">TBA</div>
-          </td>
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">TBA</div>
-          </td>
+          {% include schedule/talk.html title='Dynamic programming - 101' time='17.30-18.00' %}
+          {% include schedule/talk.html title='Speed up web APIs with Expressive and Swoole' %}
           <td class="schedule__cell schedule__cell--event">
             <div class="schedule__title">PUG Meeting</div>
           </td>
@@ -104,15 +96,7 @@ title: Schedule
         {% include schedule/pause.html time='16.30-17.00' title='Coffee break' icon="coffee" %}
 
         <tr>{% include schedule/talk.html time='17.00-17.30' title='Symfony Messenger: Messages, Queues, Workers and more' %}</tr>
-        <tr>
-          <td class="schedule__cell schedule__cell--time">
-            <span class="schedule__time">17.30-18.00</span>
-            <span class="schedule__on-air">on air</span>
-          </td>
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">TBA</div>
-          </td>
-        </tr>
+        <tr>{% include schedule/talk.html time='17.30-18.00' title='Dynamic programming - 101' %}</tr>
 
         {% include schedule/pause.html time='18.00-18.45' title='Happy hour' icon="bar" fill='true' %}
 
@@ -140,16 +124,8 @@ title: Schedule
 
         {% include schedule/pause.html time='16.30-17.00' title='Coffee break' icon="coffee" %}
 
-        <tr>{% include schedule/talk.html time='17.00-17.30' title='Enter a new world of web development where everything is serverless'  %}</tr>
-        <tr>
-          <td class="schedule__cell schedule__cell--time">
-            <span class="schedule__time">17.30-18.00</span>
-            <span class="schedule__on-air">on air</span>
-          </td>
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">TBA</div>
-          </td>
-        </tr>
+        <tr>{% include schedule/talk.html time='17.00-17.30' title='Enter a new world of web development where everything is serverless' %}</tr>
+        <tr>{% include schedule/talk.html time='17.30-18.00' title='Speed up web APIs with Expressive and Swoole' %}</tr>
 
         {% include schedule/pause.html time='18.00-18.45' title='Happy hour' icon="bar" fill='true' %}
 
